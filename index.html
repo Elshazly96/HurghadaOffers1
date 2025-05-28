@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عروض الغردقة - صيف 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .offer-card {
+            background-color: #ffffff;
+            border-radius: 1rem; /* Rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .offer-card:hover {
+            transform: translateY(-5px);
+        }
+        .header-gradient {
+            background-image: linear-gradient(to right, #007bff, #0056b3);
+        }
+        .price-tag {
+            background-color: #28a745;
+            color: white;
+            border-radius: 0.75rem;
+        }
+        .aqua-park-badge {
+            background-color: #00bcd4;
+            color: white;
+            border-radius: 0.5rem;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .full-board-badge {
+            background-color: #ffc107;
+            color: #333;
+            border-radius: 0.5rem;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-6xl mx-auto">
+        <header class="header-gradient text-white p-6 rounded-t-2xl shadow-lg mb-8 text-center">
+            <h1 class="text-3xl sm:text-4xl font-bold mb-2">عروض الغردقة - صيف 2025</h1>
+            <p class="text-lg sm:text-xl">استمتع بإجازتك مع أفضل العروض في مايو ويونيو</p>
+            <a href="index1.html" class="mt-4 inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 transition duration-300">
+                احسب سعر فندقك
+            </a>
+        </header>
+
+        <section class="bg-white p-6 rounded-xl shadow-md mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-4">تفاصيل العروض العامة:</h2>
+            <ul class="list-disc list-inside space-y-2 text-lg">
+                <li>الأسعار تشمل الإقامة 4 أيام / 3 ليالي للفرد في الغرفة الدبل أو التربل.</li>
+                <li>الأسعار تشمل الانتقالات ذهاب وعودة والوجبات (حسب الموضح لكل فندق) بنظام بوفيه مفتوح.</li>
+                <li>برنامج داخلي مميز بتكلفة إضافية (اختياري).</li>
+                <li>تستمر الرحلات باك تو باك كل 3 ليالي رحلة.</li>
+            </ul>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق سي سكاي ريزورت 🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 3 نجوم.</p>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">3750 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">3900 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) فطار وعشاء بوفيه مفتوح والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق ديكسون روما 🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 3 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">4900 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">5450 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق صن اند سى الغردقة 🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 3 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">5150 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">5400 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق الإليزيه دريم بيتش 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 4 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">5600 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">5850 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق ويفز لاروز اكوا بارك 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 4 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">5900 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">6050 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق شمس سفاجا ابو سوما 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 4 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">6800 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">7200 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق كورال بيتش 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 4 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">6900 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">6900 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق موريتو لاكشري اكوا بارك 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 4 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">6950 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">6950 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق صن دايز ميرت فاميلي 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 4 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">7100 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">8300 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق هاواى براديس اكوا بارك 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 5 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">7300 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">10100 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق الكارما بيتش اكوا بارك 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 5 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">7400 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">8150 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق الجيفتون ازور 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 4 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">7700 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">8000 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق موريتو هورايزون اكوا بارك 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 4 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">7700 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">9000 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق صن دايز البلاسيو اكوا بارك 🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 4 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">8300 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">10550 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق ام سى رويال اكوا بارك 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 5 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">8850 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">9050 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق جولدن بيتش 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 5 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">8900 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">10100 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق صن رايز الورا اكوا بارك 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 5 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">9200 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">11400 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق الجاسمين بالاس ريزورت 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-4">فندق 5 نجوم.</p>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">9500 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">9950 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق رويال لاجونز اكوا بارك 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 5 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا بارك)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">9800 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">9800 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+
+            <div class="offer-card p-6 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">فندق صن رايز اكوا جوى 🌟🌟🌟🌟🌟</h3>
+                    <p class="text-gray-600 mb-2">فندق 5 نجوم.</p>
+                    <span class="aqua-park-badge mb-2 inline-block">به ألعاب مائية (أكوا جوى)</span><br>
+                    <span class="full-board-badge mb-4 inline-block">إقامة كاملة</span>
+                    <div class="flex flex-col space-y-2 mb-4">
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٥: <span class="price-tag px-3 py-1">10550 جنيه</span></p>
+                        <p class="text-lg font-medium">تكلفة الفرد شهر ٦: <span class="price-tag px-3 py-1">12750 جنيه</span></p>
+                    </div>
+                    <p class="text-sm text-gray-500">شامل (4 أيام - 3 ليالي) إقامة كاملة (فطار وغداء وعشاء بوفيه مفتوح) والانتقالات ذهاب وعودة.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="bg-white p-6 rounded-xl shadow-md mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-4">سياسة الأطفال:</h2>
+            <ul class="list-disc list-inside space-y-2 text-lg mb-6">
+                <li>الطفل الأول مجاناً حتى 12 سنة بدون كرسي في الباص.</li>
+                <li>الطفل الثاني مجاناً حتى 6 سنين بدون كرسي في الباص.</li>
+                <li>الطفل الثاني من 6 إلى 12 سنة بـ 50% من سعر الفرد.</li>
+                <li>لإضافة كرسي في الأتوبيس: 450 جنيه.</li>
+                <li>الأطفال مشاركين آبائهم بنفس الغرفة بحد أقصى طفلين في الغرفة المزدوجة.</li>
+                <li>سعر الفرد في الغرفة السنجل يزيد 60% على سعر الفرد في الغرفة الدبل.</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold text-blue-700 mb-4">أماكن التجمع:</h2>
+            <ul class="list-disc list-inside space-y-2 text-lg mb-6">
+                <li>المنصورة: مصر للطيران</li>
+                <li>ميت غمر: أمام مصنع الغزل والنسيج</li>
+                <li>بنها: أمام مصنع توشيبا أو برج الدقهلية</li>
+                <li>طنطا: أمام كوبري فاروق</li>
+                <li>المحلة: أمام بوابة المحلة</li>
+                <li>الزقازيق: أمام مبنى المحافظة</li>
+                <li>بركة السبع و شبين</li>
+                <li>قويسنا: أمام كوبري قويسنا</li>
+                <li>القاهرة: ميدان عبد المنعم رياض</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold text-blue-700 mb-4">للاستعلام وتأكيد الحجز:</h2>
+            <p class="text-lg mb-2">جلوبال بنها للرحلات</p>
+            <p class="text-lg mb-2">بنها - أتريب - أول شارع نصار</p>
+            <p class="text-lg mb-2">
+                <span class="font-semibold">أرقام التواصل:</span>
+                01220499660 - 01289018927 - 0133186020
+            </p>
+        </section>
+
+        <footer class="text-center text-gray-600 text-sm mt-8">
+            <p>&copy; 2025 جميع الحقوق محفوظة لجلوبال بنها للرحلات.</p>
+        </footer>
+    </div>
+</body>
+</html>
